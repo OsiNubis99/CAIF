@@ -4,6 +4,7 @@ if (os.getenv('db_url', None) == None):
 	load_dotenv()
 
 url = os.getenv('HEROKU_SERVER_URL')
-bd_url = os.getenv('DB_URL')
+db_url = os.getenv('DB_URL')
+db_name = os.getenv('DB_NAME')
 token = os.getenv('TELEGRAM_TOKEN')
 port = os.getenv('PORT')
