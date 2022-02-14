@@ -1,0 +1,9 @@
+@import url("../../App.css");
+
+.HistoryChat{
+    height: 76vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}

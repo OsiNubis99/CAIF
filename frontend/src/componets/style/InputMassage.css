@@ -1,0 +1,29 @@
+@import url("../../App.css");
+
+.InputMassage{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InputMassage input{
+    background: none;
+    border-radius: 30px;
+    border: 3px solid #13A5DF;
+    color: white;
+    outline: none;
+    width: 85%;
+    height: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+.InputMassage button{
+    background: #13A5DF;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 15px;
+}

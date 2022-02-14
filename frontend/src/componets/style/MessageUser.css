@@ -1,0 +1,20 @@
+@import url("../../App.css");
+
+.ContainerUser{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+    padding-right: 6%;
+}
+.MessageUser{
+    border: 3px solid #13A5DF;
+    padding: 10px 10px;
+    width: none;
+    border-radius: 20px;
+    max-width: 70%;
+}
+.MessageUser p{
+    margin: 0 0;
+    width: auto;
+    font-size: 17px;
+}

@@ -1,0 +1,33 @@
+@import url("../../App.css");
+
+.chatWindow{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.headerChat{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.headerChat__bot{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+.headerChat__bot img{
+    width: 52px;
+    height: 52px;
+}
+.headerChat__bot--title{
+    font-size: 28px;
+    margin-left: 15%;
+}
+
+@media only screen and (min-width: 950px) {
+    .chatWindow{
+        width: 72vw;
+    }
+}

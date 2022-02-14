@@ -1,0 +1,75 @@
+@import url("../../App.css");
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailsMenu{
+    position: absolute;
+    background-color: #00060C;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 75vw;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.none{
+    display: none;
+}
+.detailsMenu__header{
+    display: flex;
+    justify-content: center;
+}
+.detailsMenu img{
+    width: 120px;
+    cursor: pointer;
+}
+.detailsMenu ul{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 70%;
+}
+.detailsMenu li{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.detailsMenu__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.detailsMenu__footer img{
+    width: 20px;
+    cursor: pointer;
+}
+.detailsMenu__footer button{
+    width: 100px;
+    height: 47px;
+    border-radius: 40px;
+    background: none;
+    border: 3px solid #13A5DF;
+    font-size: 20px;
+}
+@media only screen and (min-width: 950px) {
+    .menuIcon{
+        display: none;
+    }
+    .detailsMenu{
+        background-color: #001324;
+        width: 28vw;
+    }
+    .none{
+        display: block;
+    }
+    .backMenu{
+        display: none;
+    }
+    .detailsMenu__footer{
+        justify-content: end;
+    }
+}
