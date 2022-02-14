@@ -1,9 +1,11 @@
 .DS_Store
 frontend/node_modules
+frontend/src/assets
 dist
 public/img
 
 # local env files
+/db-CAIF.json
 .env.local
 .env.*.local
 
@@ -23,5 +25,6 @@ yarn-error.log*
 
 /live/
 .env
+__pycache__/*
 */__pycache__/*
 .*.json
